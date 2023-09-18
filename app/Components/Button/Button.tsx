@@ -36,10 +36,14 @@ const ButtonStyled = styled.button`
   display: flex;
   align-items: center;
   gap: 1rem;
+        
   &:hover {
     background-color: var(--color-border);
     color: white;
+    transform: scale(1.1);
   }
+
+
 `;
 
 export default Button

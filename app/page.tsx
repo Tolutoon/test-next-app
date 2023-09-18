@@ -1,11 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Header from './Components/Header/Header'
+"use client";
+
+import Header from './Components/Header/Header';
+import styled from 'styled-components';
+import MainStyled from './Components/MainStyled/MainStyled';
 
 export default function Home() {
   return (
     <>
     <Header />
+    <MainStyled />
     </>
   )
 }
+
+
+

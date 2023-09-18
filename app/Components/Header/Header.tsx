@@ -52,12 +52,12 @@ function Header() {
             </nav>
             <div className='header-content'>
                 <div className='text-content'>
-                    <h1 className={abril.className}>Buy, Collect, and sell extraordinary NFTs</h1>
+                    <h1 className={abril.className}>Buy, Collect, and Sell extraordinary NFTs</h1>
                     <p>We're dedicated to providing you with the latest news, analysis, and trends in the exciting world of cryptocurrencies 
                     and blockchain technology. Whether you're a seasoned trader, a blockchain enthusiast, or just dipping your toes into the crypto waters, 
                     our goal is to be your go-to resource for all things crypto.</p>
                     <div className='buttons'>
-                        <Button 
+                        <Button
                         name='Get Started'
                         background='#f2994a'
                         color='#fff'
@@ -69,7 +69,7 @@ function Header() {
                 </div>
                 <div className='image-content'>
                     <div className='image' style={{transform: hoverHero.transform}}>
-                    <Image src={Monkey} width={600} height={600} alt=''/>
+                    <Image src={Monkey} width={500} height={500} alt=''/>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ const HeaderStyled = styled.header`
         justify-content: center;
         input {
             width: 55%;
-            padding: 0%.6rem 0.8rem;
+            padding: 0.6rem 0.8rem;
             border-radius: 8px;
             background-color: #161616;
             padding: 6px;

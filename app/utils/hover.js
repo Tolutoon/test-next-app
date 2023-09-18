@@ -11,6 +11,7 @@ export default function hover3D(ref, { x=0, y=0, z=0 }) {
         const {offsetWidth: width, offsetHeight:height} = ref.current;
         const { clientX, clientY } = e;
 
+
         const x = (clientX - width / 2) / width;
         const y = (clientY - height / 2) / height;
 
