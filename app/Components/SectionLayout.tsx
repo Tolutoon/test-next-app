@@ -18,4 +18,4 @@ function SectionLayout({ children, ref }: SecttionLayoutProps) {
   )
 }
 
-export default SectionLayout
+export default SectionLayout;
